@@ -11,10 +11,10 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/0.6.7/fastclick.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.0.0/FileSaver.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-touch.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-sanitize.js"></script>
+    <script src="//ajax.c2cmalls.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="//ajax.c2cmalls.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    <script src="//ajax.c2cmalls.com/ajax/libs/angularjs/1.5.3/angular-touch.min.js"></script>
+    <script src="//ajax.c2cmalls.com/ajax/libs/angularjs/1.5.3/angular-sanitize.js"></script>
     <script src="ui-bootstrap-tpls-1.3.2.min.js"></script>
     <script src="assets/plunker.js"></script>
     <script src="assets/app.js"></script>
@@ -43,10 +43,10 @@
                 </a>
                 <li class="dropdown" uib-dropdown>
                     <a role="button" class="dropdown-toggle" uib-dropdown-toggle>
-                        Directives <b class="caret"></b>
+                        指令Directives <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#accordion">Accordion</a></li><li><a href="#alert">Alert</a></li><li><a href="#buttons">Buttons</a></li><li><a href="#carousel">Carousel</a></li><li><a href="#collapse">Collapse</a></li><li><a href="#dateparser">Dateparser</a></li><li><a href="#datepicker">Datepicker</a></li><li><a href="#datepickerPopup">Datepicker Popup</a></li><li><a href="#dropdown">Dropdown</a></li><li><a href="#modal">Modal</a></li><li><a href="#pager">Pager</a></li><li><a href="#pagination">Pagination</a></li><li><a href="#popover">Popover</a></li><li><a href="#position">Position</a></li><li><a href="#progressbar">Progressbar</a></li><li><a href="#rating">Rating</a></li><li><a href="#tabs">Tabs</a></li><li><a href="#timepicker">Timepicker</a></li><li><a href="#tooltip">Tooltip</a></li><li><a href="#typeahead">Typeahead</a></li>
+                        <li><a href="#accordion">Accordion</a></li><li><a href="#alert">Alert</a></li><li><a href="#buttons">按钮</a></li><li><a href="#carousel">Carousel</a></li><li><a href="#collapse">Collapse</a></li><li><a href="#dateparser">Dateparser</a></li><li><a href="#datepicker">Datepicker</a></li><li><a href="#datepickerPopup">Datepicker Popup</a></li><li><a href="#dropdown">Dropdown</a></li><li><a href="#modal">Modal</a></li><li><a href="#pager">Pager</a></li><li><a href="#pagination">Pagination</a></li><li><a href="#popover">Popover</a></li><li><a href="#position">Position</a></li><li><a href="#progressbar">Progressbar</a></li><li><a href="#rating">Rating</a></li><li><a href="#tabs">Tabs</a></li><li><a href="#timepicker">Timepicker</a></li><li><a href="#tooltip">Tooltip</a></li><li><a href="#typeahead">Typeahead</a></li>
                     </ul>
                 </li>
                 <li><a href="#getting_started">Getting started</a></li>
@@ -64,7 +64,7 @@
         </nav>
         <nav class="visible-xs" uib-collapse="!isCollapsed">
             <ul class="nav navbar-nav">
-                <li><a href="#getting_started" ng-click="isCollapsed = !isCollapsed">Getting started</a></li>
+                <li><a href="#getting_started" ng-click="isCollapsed = !isCollapsed">入门</a></li>
                 <li><a href="#directives_small" ng-click="isCollapsed = !isCollapsed">Directives</a></li>
             </ul>
         </nav>
@@ -78,15 +78,15 @@
                 UI Bootstrap
             </h1>
 
-            <p>Bootstrap components written in pure <a href="http://angularjs.org">AngularJS</a> by the <a
-                    href="http://angular-ui.github.io">AngularUI Team</a></p>
+            <p>Bootstrap 组件用纯<a href="http://angularjs.org">AngularJS</a> by the <a
+                    href="http://angular-ui.github.io">AngularUI 项目</a></p>
 
             <p>
-                <a class="btn btn-outline-inverse btn-lg" href="https://github.com/angular-ui/bootstrap"><i class="icon-github"></i>Code on Github</a>
+                <a class="btn btn-outline-inverse btn-lg" href="https://github.com/angular-ui/bootstrap"><i class="icon-github"></i>代码Github上</a>
                 <button type="button" class="btn btn-outline-inverse btn-lg" ng-click="showDownloadModal()">
-                    <i class="glyphicon glyphicon-download-alt"></i> Download <small>(1.3.2)</small>
+                    <i class="glyphicon glyphicon-download-alt"></i>下载 <small>(1.3.2)</small>
                 </button>
-                <button type="button" class="btn btn-outline-inverse btn-lg" ng-click="showBuildModal()"><i class="glyphicon glyphicon-wrench"></i> Create a Build</button>
+                <button type="button" class="btn btn-outline-inverse btn-lg" ng-click="showBuildModal()"><i class="glyphicon glyphicon-wrench"></i>创建一个Build</button>
             </p>
         </div>
         <div class="bs-social container">
@@ -136,47 +136,47 @@
             <div class="col-md-12">
                 <section class="bs-sidebar visible-xs" id="directives_small">
                     <ul class="nav bs-sidenav">
-                        <li><a href="#"><strong>Directives</strong></a></li>
+                        <li><a href="#"><strong>指令</strong></a></li>
                         
-                            <li><a href="#accordion">Accordion</a></li>
+                            <li><a href="#accordion">手风琴</a></li>
                         
-                            <li><a href="#alert">Alert</a></li>
+                            <li><a href="#alert">警报</a></li>
                         
-                            <li><a href="#buttons">Buttons</a></li>
+                            <li><a href="#buttons">按钮</a></li>
                         
-                            <li><a href="#carousel">Carousel</a></li>
+                            <li><a href="#carousel">旋转木马</a></li>
                         
-                            <li><a href="#collapse">Collapse</a></li>
+                            <li><a href="#collapse">折叠</a></li>
                         
-                            <li><a href="#dateparser">Dateparser</a></li>
+                            <LI> <a href="#dateparser"> Dateparser </A> </ li>
                         
-                            <li><a href="#datepicker">Datepicker</a></li>
+                            <li><a href="#datepicker">日期选择器</a></li>
                         
-                            <li><a href="#datepickerPopup">Datepicker Popup</a></li>
+                            <li><a href="#datepickerPopup">日期选择器弹出</a></li>
                         
-                            <li><a href="#dropdown">Dropdown</a></li>
+                            <li><a href="#dropdown">下拉</a></li>
                         
-                            <li><a href="#modal">Modal</a></li>
+                            <li><a href="#modal">莫代尔</a></li>
                         
-                            <li><a href="#pager">Pager</a></li>
+                            <li><a href="#pager">页面</a></li>
                         
-                            <li><a href="#pagination">Pagination</a></li>
+                            <li><a href="#pagination">分页</a></li>
                         
-                            <li><a href="#popover">Popover</a></li>
+                            <li><a href="#popover">Popover弹出</a></li>
                         
-                            <li><a href="#position">Position</a></li>
+                            <li><a href="#position">位置</a></li>
                         
-                            <li><a href="#progressbar">Progressbar</a></li>
+                            <li><a href="#progressbar">进度</a></li>
                         
-                            <li><a href="#rating">Rating</a></li>
+                            <li><a href="#rating">评级</a></li>
                         
-                            <li><a href="#tabs">Tabs</a></li>
+                            <li><a href="#tabs">标签</a></li>
                         
                             <li><a href="#timepicker">Timepicker</a></li>
                         
-                            <li><a href="#tooltip">Tooltip</a></li>
+                            <li><a href="#tooltip">工具提示</a></li>
                         
-                            <li><a href="#typeahead">Typeahead</a></li>
+                            <li><a href="#typeahead">键盘缓冲</a></li>
                         
                     </ul>
                 </section>
